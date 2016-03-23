@@ -1,6 +1,5 @@
 # RTutorNAFTAfreetrade
-Evaluation of Free Trade Effects, Exemplified by NAFTA 
-
+Evaluation of Free Trade Effects, Exemplified by NAFTA \n
 Based on "Estimates of the Trade and Welfare Effects of NAFTA" by Caliendo and Parro (2015)
 
 doi:10.1093/restud/rdu035
