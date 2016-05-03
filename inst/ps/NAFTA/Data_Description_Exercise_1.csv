@@ -1,0 +1,88 @@
+orgvar | var | descr
+
+Sector | Sector | This variable says which of the 40 sectors in the model is concerned. 20 of the sectors are tradable, and 20 are non-trabable, thus have the character of infrastructure.
+Dest_C | Dest_C | The destination country for the respective trade flow and tariffs.
+Source_C | Source_C | The source country for the respective trade flow and tariffs. This is also the country for which the gross output and sectoral value added data is given.
+Tariffs1993 | Tariffs1993 | In 1993, what was the (weighted average) tariff rate in the given sector, for an import into the destination country from the source country? Values are given in percent.
+Tariffs2005 | Tariffs2005 | Analogously to "Tariffs1993", but replacing the year 1993 by 2005.
+GO_Source | GO_Source | What is the gross output in the given sector in the source country (in million dollars)?
+VA_Source | VA_Source | Which percentage of the value of the output from the given sector in the source country is added within the sector? Thus, (100-"VA_Source") percent of the value of the output is determined by the value of the input of materials and services.
+Trade_Vol | Trade_Vol | The bilateral trade flow from the source country to the destination country in the given sector (in million dollars). Note that values are given with tariffs excluded.
+Trade_Elast | Trade_Elast | This variable is explained in detail in Exercise Trade Elasticities.
+Tradable | Tradable | Is the sector tradable?
+NAFTA_Dest | NAFTA_Dest | Is the destination country: a)Canada, b)Mexico, c)USA, d)nonafta
+
+Country | Country | This variable says which of the 31 countries is concerned. One of the countries in the model, "Remaining World", is constructed from the countries that lack individual data. It is introduced into the model to capture trade globally.
+Source_S | Source_S | This is the sector whose output is employed (partially) in sector "Dest_S".
+Dest_S | Dest_S | This is the sector where some of the output of sector "Source_S" is used.
+IO_Coeff | IO_Coeff | The input-output coefficient states which percentage of the output of sector "Source_S" is employed or consumed in sector "Dest_S".
+
+sector | sector | This variable says which of the 40 sectors in the model is concerned. 20 of the sectors are tradable, and 20 are non-trabable, thus have the caracter of infrastructure.
+y | y | In the regression in Exercise 5 that is designed to estimate the thetas (equation 11), this is the dependent variable, thus the left-hand side.
+x | x |  In the regression in Exercise 5 that is designed to estimate the thetas (equation 11), this is the independent variable, thus the term with the six tau tilde.
+d1 | d1 | In the current pair of x-y values, is this country one of the three concerned countries? Here, in 'd1': Is Argentina one of the three countries?
+d2 | d2 | See 'd1', but for Australia instead of Argentina.
+d3 | d3 | See 'd1', but for Canada instead of Argentina.
+d4 | d4 | See 'd1', but for Swiss instead of Argentina.
+d5 | d5 | See 'd1', but for Chile instead of Argentina.
+d6 | d6 | See 'd1', but for China instead of Argentina.
+d7 | d7 | See 'd1', but for Colombia instead of Argentina.
+d8 | d8 | See 'd1', but for the European Union (25) instead of Argentina.
+d9 | d9 | See 'd1', but for Indonesia instead of Argentina.
+d10 | d10 | See 'd1', but for India instead of Argentina.
+d11 | d11 | See 'd1', but for Japan instead of Argentina. 
+d12 | d12 | See 'd1', but for Korea instead of Argentina.
+d13 | d13 | See 'd1', but for Norway instead of Argentina.
+d14 | d14 | See 'd1', but for New Zealand instead of Argentina.
+d15 | d15 | See 'd1', but for Thailand instead of Argentina.
+d16 | d16 | See 'd1', but for the US instead of Argentina.
+
+
+Domsales_Source | Domsales_Source | The value of goods which are both produced and sold within country 'Source_C'
+Expend | Expend | The expenditure, which is calculated as trade volume plus the tariffs on the goods
+Expend_Source | Expend_Source | All the source country's expenditures in the given sector, (also including the domestic sales) 
+
+
+Expend_Shares | Expend_Shares | The expenditure (or domestic sales) divided by the total expenditure on goods from that sector
+Alpha_Source | Alpha_Source | The sector's alpha for the source country. Alpha is the final consumption share.
+Exports_Source | Exports_Source | The source country's total exports in a given sector.
+Expend_Dest | Expend_Dest | The destination country's total expenditure in a given sector.
+Total_Exports_Source | Total_Exports_Source | The source country's total exports summed over all sectors.
+Superavit_Source | Superavit_Source | The total superavit (= -trade deficit) of source country.
+VA_Total_Source | VA_Total_Source | The total value added within source country.
+VA_Sector | VA_Sector | The total value added within the given sector in source country.
+piprime | piprime | The new expenditure shares
+piprime_discounted | piprime_discounted | The new expenditure shares, discounted by tariffs.
+
+Gamma_kjn | Gamma_kjn | The share of intermediate consumption, see Exercise 2.2.
+
+prices | prices | The prices at the current step of the equilibrium finding process
+costs | costs | The costs at the current step of the equilibrium finding process
+
+X | X | The expenditure.
+
+Countries | Countries | This variable says which of the 31 countries is concerned. One of the countries in the model, "Remaining World", is constructed from the countries that lack individual data. It is introduced into the model to capture trade globally.
+Total | Total | The total effect on welfare in percent.
+ToT | ToT | The terms of trade effect on welfare.
+VoT | VoT | The volume of trade effect on welfare.
+Real_Wages | Real_Wages | The effect on real wages.
+
+Mexico | Mexico | The increase of exports from Mexico to the other two NAFTA members.
+Canada | Canada | The increase of exports from Canada to the other two NAFTA members.
+U.S | U.S | The increase of exports from the U.S to the other two NAFTA members.
+
+Sectors | Sectors | This variable says which of the 40 sectors in the model is concerned. 20 of the sectors are tradable, and 20 are non-trabable, thus have the caracter of infrastructure.
+ToT_Mexico | ToT_Mexico | The sector's terms of trade effect on welfare in Mexico.
+VoT_Mexico | VoT_Mexico | The sector's volume of trade effect on welfare in Mexico.
+ToT_Canada | ToT_Canada| The sector's terms of trade effect on welfare in Canada.
+VoT_Canada | VoT_Canada | The sector's volume of trade effect on welfare in Canada.
+ToT_USA | ToT_USA | The sector's terms of trade effect on welfare in the U.S.
+VoT_USA | VoT_USA | The sector's volume of trade effect on welfare in the U.S.
+
+Mexico_before | Mexico_before | The sector's contribution to Mexico's exports before NAFTA.
+Mexico_after | Mexico_after | The sector's contribution to Mexico's exports after NAFTA.
+Canada_before | Canada_before | The sector's contribution to Canada's exports before NAFTA.
+Canada_after | Canada_after | The sector's contribution to Canada's exports after NAFTA.
+U.S_before | U.S_before | The sector's contribution to the U.S exports before NAFTA.
+U.S_after | U.S_after | The sector's contribution to the U.S exports after NAFTA.
+
