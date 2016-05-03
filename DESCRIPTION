@@ -1,0 +1,11 @@
+Package: RTutorNAFTAfreetrade
+Type: Package
+Title: RTutor problem set NAFTA
+Version: 0.1
+Date: 2016-03-05
+Author: Tobias Fischer
+Maintainer: Tobias Fischer <tobias.fischer@uni-ulm.de>
+Description: RTutor problem set NAFTA
+License: Problem set content: Creative Commons (CC BY-NC 4.0)
+	Package code: GPL >= 2.0
+Depends: RTutor, ggplot2, dplyr, gridExtra, reshape2, shinyEvents
